@@ -1,18 +1,22 @@
 # Phase 3: PCB Design
 
-This phase covers the full workflow of designing and manufacturing custom printed circuit boards.
+## Goal
 
-## Topics
+Design the physical board that your firmware will eventually run on.
 
-- PCB design fundamentals: layers, traces, vias, footprints
-- Schematic capture best practices
-- Component selection and BOM management
-- Layout guidelines: signal integrity, power planes, decoupling capacitors
-- Design Rule Checks (DRC) and Electrical Rules Checks (ERC)
-- Gerber file generation and communicating with manufacturers
-- PCB design tools: KiCad, EasyEDA
-- Soldering and basic rework skills
+## Timeline and Schedule (8 Weeks)
 
-## Goals
+| Period | Focus | Key Tasks | Milestone |
+|---|---|---|---|
+| Wk 1-2 | KiCad Basics + First Schematic | Watch KiCad for Beginners (DIY Hideout, 24 min). Project: simple LED + resistor board. Learn schematic capture. | First KiCad schematic complete |
+| Wk 3-4 | Footprints, Layout, Routing | Finish tutorial and create a proper 2-layer board. Learn DRC, 3D viewer, copper pours, and trace width rules. | 2-layer board passing DRC |
+| Wk 5-6 | Component Libraries + Best Practices | Add ESP32 + sensor symbols/footprints. Project: ESP32 dev board clone or sensor breakout board. | Custom component library created |
+| Wk 7-8 | Full Custom Project + Gerber Export | Design TinyML-ready board (ESP32 + mic or sensor + power regulator). Export Gerbers and verify in a free online viewer. Watch Phil's Lab KiCad 9 tips. | TinyML board Gerbers exported |
 
-By the end of this phase you should be able to design a complete schematic, lay out a multi-layer PCB, pass DRC/ERC checks, and submit manufacturing files to a PCB fab house.
+## Expected Outcome
+
+Real KiCad PCB files ready for fabrication.
+
+## Resources
+
+Phase resources are organized in [resources/README.md](resources/README.md).

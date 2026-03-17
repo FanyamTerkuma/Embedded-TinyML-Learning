@@ -1,18 +1,22 @@
 # Phase 2: Firmware Programming & Advanced Embedded
 
-This phase dives deeper into professional firmware development and advanced peripheral use.
+## Goal
 
-## Topics
+Drop Arduino abstractions and write firmware the way professionals do.
 
-- Bare-metal programming on ARM Cortex-M (STM32, RP2040, etc.)
-- CMSIS and Hardware Abstraction Layers (HAL)
-- Communication protocols: I2C, SPI, CAN
-- DMA transfers and power management
-- RTOS fundamentals: FreeRTOS tasks, queues, and semaphores
-- Bootloaders and firmware update mechanisms
-- Debugging with JTAG/SWD, OpenOCD, and GDB
-- Unit testing embedded firmware (Unity, Ceedling)
+## Timeline and Schedule (8 Weeks)
 
-## Goals
+| Period | Focus | Key Tasks | Milestone |
+|---|---|---|---|
+| Wk 1-2 | Bare-Metal C (no Arduino) | Quantum Leaps free YouTube course videos 1-6. Code along in Wokwi bare-metal style. Learn registers and direct GPIO access. | LED control without digitalWrite |
+| Wk 3-4 | Interrupts, Timers, PWM Deep Dive | Custom LED dimmer with hardware timer and button ISR project. Learn NVIC, timer peripherals, hardware debounce. | Hardware timer PWM demo |
+| Wk 5-6 | ADC, UART, Low Power Modes | Data logger storing values in an array, serial communication simulation. Learn sleep modes and power optimization basics. | Serial data logger project |
+| Wk 7-8 | FreeRTOS Introduction | Two tasks (sensor read + display update) with queue. Capstone: multi-task plant monitor firmware. Learn tasks, semaphores, queues. | FreeRTOS plant monitor running |
 
-By the end of this phase you should be able to write production-quality bare-metal and RTOS-based firmware, use standard communication protocols, and debug hardware/software issues with professional tools.
+## Expected Outcome
+
+Professional-quality bare-metal firmware plus FreeRTOS multitasking.
+
+## Resources
+
+Phase resources are organized in [resources/README.md](resources/README.md).
